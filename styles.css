@@ -1,0 +1,63 @@
+body{
+    background-color: #4f345a;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    overflow: hidden;
+}
+#pojemnik{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 59px;
+    text-align: center;
+    font-size: 30px;
+}
+#wisielec{
+   float: left;
+   width: 450px;
+   text-align: center;
+   min-height: 274px;
+}
+#litery{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 274px;
+ }
+ .litera{
+    background-color: transparent;
+    color: #bb3939;
+    font-weight : bold;
+    height: 50px;
+    width: 41px;
+    padding: 13px;
+    margin: 2px;
+    cursor: pointer;
+    float: left;
+    border-radius: 6px;
+    border: solid 2px #000; 
+ }
+ .litera:hover{
+    background-color: #e0e0e0;
+ }
+ #footer{
+    height: 30%; 
+    width: 100%;
+ }
+ #header{
+    width: 800px;
+    font-weight : bold;
+    text-align: center;
+    color: yellow;
+    font-size: 42px;
+ }
